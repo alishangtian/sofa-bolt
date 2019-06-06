@@ -67,7 +67,7 @@
         <cobertura.maven.plugin>2.6</cobertura.maven.plugin>
         <coveralls.maven.plugin>3.2.1</coveralls.maven.plugin>
         <hessian.version>3.3.6</hessian.version>
-        <java.version>1.6</java.version>
+        <java.version>1.7</java.version>
         <license.maven.plugin>3.0</license.maven.plugin>
         <maven.assembly.plugin>3.0.0</maven.assembly.plugin>
         <maven.compiler.plugin>3.5.1</maven.compiler.plugin>
@@ -93,6 +93,24 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>1.60</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.60</version>
+        </dependency>
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>

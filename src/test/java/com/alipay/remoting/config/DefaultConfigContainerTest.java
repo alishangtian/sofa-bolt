@@ -25,9 +25,8 @@ import com.alipay.remoting.config.configs.ConfigType;
 import com.alipay.remoting.config.configs.DefaultConfigContainer;
 
 /**
- *
  * @author tsui
- * @version $Id: DefaultConfigContainerTest.java, v 0.1 2018-07-30 10:53 tsui Exp $$ 
+ * @version $Id: DefaultConfigContainerTest.java, v 0.1 2018-07-30 10:53 tsui Exp $$
  */
 public class DefaultConfigContainerTest {
     @Test
